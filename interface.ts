@@ -1,4 +1,5 @@
-//interface-:interface is one kind of contract.you can't add new property or method  in impliments class.
+//interface-:interface is one kind of contract.you can't add new property  in impliments object.
+//interface is contract we need follow the rull with them.
 //impements-: by using impliments keyword you can derive new class from the interface.
 //in interface we have only abstarct method.
 interface IProduct {
