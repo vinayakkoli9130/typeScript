@@ -134,9 +134,9 @@ const numberes = +leet;
 console.log(numberes === 1234556);
 console.log(numberes);
 
-// import {isPalindromessss} from './utils';
-// console.log(isPalindromessss('madam'));
-// console.log(isPalindromessss('madan'));
+import {isPalindrome} from './utils';
+console.log(isPalindrome('madam'));
+console.log(isPalindrome('madan'));
 console.log(`-----------------check typeOf-------------------------------------`);
 function shows(value: unknown) {
     if (typeof value == 'number') {

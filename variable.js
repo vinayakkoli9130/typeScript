@@ -73,7 +73,7 @@ function test() {
 }
 console.log('line no 16', test()); // undefined 
 // log("test");
-// The unknown type is only assignable to the any type and the unkown type itselff.//
+// The unknown type is only assignable to the any type and the unkown type itself.//
 // let val: any; 
 // let value : unknown;
 // let value1: unknown = vvvvvv;
@@ -122,9 +122,9 @@ leet = '1234556';
 var numberes = +leet;
 console.log(numberes === 1234556);
 console.log(numberes);
-// import {isPalindromessss} from './utils';
-// console.log(isPalindromessss('madam'));
-// console.log(isPalindromessss('madan'));
+var utils_1 = require("./utils");
+console.log((0, utils_1.isPalindrome)('madam'));
+console.log((0, utils_1.isPalindrome)('madan'));
 console.log("-----------------check typeOf-------------------------------------");
 function shows(value) {
     if (typeof value == 'number') {

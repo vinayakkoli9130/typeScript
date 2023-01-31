@@ -14,6 +14,6 @@ var num2 = Number(prompt('Please enter second number'));//you can  get also stri
 console.log(num1 + num2);
 
 console.log(parseInt('32px'));
- ; // 32 
+  // 32 
 
 Number('32dny'); //NaN-Not a Number
