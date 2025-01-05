@@ -7,6 +7,7 @@ console.log("Chemestry-:",chem);
 let marks=math+physics+chem;
 let average=marks/3
 console.log("The Average Of Three Subjects Is-:",average);
+
 let grade =average//
 if (grade<70) {
 console.log(`Grade-:C Grade`);
