@@ -134,10 +134,29 @@ const numberes = +leet;
 console.log(numberes === 1234556);
 console.log(numberes);
 
+interface User {
+    name: string;
+    age: number;
+}
+
+const userData: any = {
+    name: "Alice",
+    age: 30,
+};
+
+// Casting userData to User type
+const user = userData as User;
+
+console.log(user.name); // Outputs: Alice
+console.log(user.age);  // Outputs: 30
+
+
 import {isPalindrome} from './utils';
 console.log(isPalindrome('madam'));
 console.log(isPalindrome('madan'));
-console.log(`-----------------check typeOf-------------------------------------`);
+
+console.log(`-----------------check typeOf-------------------------------------`)
+;
 function shows(value: unknown) {
     if (typeof value == 'number') {
     console.log("To Fix Decimal Point Of Number-:",value.toFixed(3));
@@ -150,6 +169,7 @@ function shows(value: unknown) {
     shows("test");
     shows('Hello world');
 console.log(`-------------Type Assertion----------------------------------`);
+
 //Using "as" use can perform type assertion.
     function load(): unknown {
       return 'Hello World  ';

@@ -1,5 +1,5 @@
 // function / method overloading-: same name with different parametres or arguments.
-
+//Method overloading in TypeScript allows a function to have multiple signatures, enabling it to accept different types or numbers of arguments.
 //Function Declaration\\
 function doubleMe(x: number);
 function doubleMe(x: string);

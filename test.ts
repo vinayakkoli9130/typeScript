@@ -16,4 +16,4 @@ console.log(num1 + num2);
 console.log(parseInt('32px'));
   // 32 
 
-Number('32dny'); //NaN-Not a Number
+Number('32dny') ; //NaN-Not a Number

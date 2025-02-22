@@ -1,4 +1,4 @@
-//Abstract Class-:abstract is keyword, abtract class is tipicaly used definde comman behevior/property.
+//Abstract Class-:abstract is keyword, abtract class is typicaly used definde comman behevior/property.
 //Abstract-:abstract is keyword. they have not body only can declare.
 //Abstract Class-:abstract is keyword, abtract class is tipicaly used definde comman behevior/property.
 // in abstract class we can create abstract methods as well as non-abstract method.
